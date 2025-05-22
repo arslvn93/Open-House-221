@@ -1,4 +1,4 @@
-{
+const config = {
   "property": {
     "streetAddress": "102, 10 Discovery Ridge Hill SW",
     "city": "Calgary",
@@ -91,8 +91,8 @@
   "deploymentInfo": {
     "repoName": "Open-House-221",
     "repoUrl": "https://github.com/arslvn93/Open-House-221",
-    "tag": "Open House 10 Discovery Ridge Hill SW",
+    "tag": "Open House 10 Discovery Ridge Hill",
     "netlifyUrl": "http://Open-House-221.netlify.app",
-    "siteId": "988676048"
+    "siteId": "0e9033fe-b02e-41ad-b6aa-3deeafb44068"
   }
 }
