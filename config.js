@@ -1,6 +1,6 @@
 const config = {
   "property": {
-    "streetAddress": "102, 10 Discovery Ridge Hill SW",
+    "streetAddress": "102-10 Discovery Ridge Hill SW",
     "city": "Calgary",
     "cityStateZip": "Calgary, AB T3H 5X2",
     "heroSubtitle": "Corner upgraded walkout townhome that feels like an oasis outside of the city. Recent complex roof, premium location—directly across from parks, soccer fields, hockey rink, tennis/pickleball courts & playground, and just steps from Discovery Ridge Plaza & Wonder Donut Café. Register to receive the complete Home & Neighbourhood Info Package, virtual tour, floor plans, and comparables.",
