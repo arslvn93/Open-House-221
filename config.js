@@ -158,7 +158,7 @@ const config = {
     "repoName": "Open-House-221",
     "repoUrl": "https://github.com/arslvn93/Open-House-221",
     "tag": "Open House 10 Discovery Ridge Hill",
-    "netlifyUrl": "http://Open-House-221.netlify.app",
+    "netlifyUrl": "https://services.leadconnectorhq.com/hooks/KxSrsX5ZH2ZttFjyt9hW/webhook-trigger/EWFVczQeMtLq5D4IVClg",
     "siteId": "0e9033fe-b02e-41ad-b6aa-3deeafb44068"
   }
 };
