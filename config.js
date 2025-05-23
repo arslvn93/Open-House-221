@@ -27,14 +27,38 @@ const config = {
   "openHouse": {
     "eventDate": "2025-05-25",
     "bundleItems": [
-      { "icon": "fas fa-ruler-combined", "text": "Architectural Floor Plan", "link": "https://matrixmedia.pillarnine.com/mediaserver/GetMedia.ashx?Key=101000853&TableID=0&Type=3&Number=1&Size=0&NNF=1&RFN=RMS+-+102%2c+10+Discovery+Ridge+Hill+SW.pdf&tstmp=0522165012&exk=ed9b2841d31fae6dbc35369090b0e100" },
-      { "icon": "fas fa-star", "text": "Neighbourhood Guide" },
-      { "icon": "fas fa-check-circle", "text": "Market Stats" },
-      { "icon": "fas fa-car", "text": "School District Information" },
-      { "icon": "fas fa-key", "text": "Financing Resources" },
-      { "icon": "fas fa-home", "text": "Utility Cost Estimates" },
-      { "icon": "fas fa-map-location-dot", "text": "Property Feature List" },
-      { "icon": "fas fa-image", "text": "Home Inspection Tips" }
+      {
+        "icon": "fas fa-ruler-combined",
+        "text": "Architectural Floor Plan"
+      },
+      {
+        "icon": "fas fa-star",
+        "text": "Neighbourhood Guide"
+      },
+      {
+        "icon": "fas fa-check-circle",
+        "text": "Market Stats"
+      },
+      {
+        "icon": "fas fa-car",
+        "text": "School District Information"
+      },
+      {
+        "icon": "fas fa-key",
+        "text": "Financing Resources"
+      },
+      {
+        "icon": "fas fa-home",
+        "text": "Utility Cost Estimates"
+      },
+      {
+        "icon": "fas fa-map-location-dot",
+        "text": "Property Feature List"
+      },
+      {
+        "icon": "fas fa-image",
+        "text": "Home Inspection Tips"
+      }
     ],
     "listingLink": "https://matrix.pillarnine.com/Matrix/Public/Portal.aspx?ID=DE-266344908604&eml=YW15QGNhdWdobGlucmVhbGVzdGF0ZS5jYQ==#1",
     "comparablesLink": "https://matrix.pillarnine.com/Matrix/Public/Portal.aspx?p=DE-266395716-759&k=4209874X4C2F&eml=YW15bGNhdWdobGluQGdtYWlsLmNvbQ==",
@@ -42,49 +66,91 @@ const config = {
   },
   "meta": {
     "pageTitlePrefix": "🏡 Amy Caughlin Open House",
-    "navBrandLogoText": "OPEN HOUSE 10 Discovery Ridge Hill SW",
+    "navBrandLogoText": "OPEN HOUSE",
     "privacyPolicyLink": "https://caughlinrealestate.ca/"
   },
   "settings": {
     "adminWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouseupdate",
     "visitorWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouse",
-    "confettiColors": ["#6187a7", "#f0e9d6", "#ffffff", "#83a363", "#d9ac68"]
+    "confettiColors": [
+      "#6187a7",
+      "#f0e9d6",
+      "#ffffff",
+      "#83a363",
+      "#d9ac68"
+    ]
   },
   "modalQuestions": [
     {
       "id": "agent_status",
       "questionText": "Are you currently exploring homes with a real estate agent?",
       "options": [
-        { "value": "committed", "text": "Yes, I'm committed to an agent." },
-        { "value": "not_committed", "text": "No, I'm not committed to an agent." },
-        { "value": "gathering_info", "text": "Just gathering information at this stage." }
+        {
+          "value": "committed",
+          "text": "Yes, I'm committed to an agent."
+        },
+        {
+          "value": "not_committed",
+          "text": "No, I'm not committed to an agent."
+        },
+        {
+          "value": "gathering_info",
+          "text": "Just gathering information at this stage."
+        }
       ]
     },
     {
       "id": "interest_level",
       "questionText": "How interested are you in properties like this?",
       "options": [
-        { "value": "very_interested", "text": "Very interested, actively looking." },
-        { "value": "somewhat_interested", "text": "Somewhat interested, keeping options open." },
-        { "value": "just_browsing", "text": "Just browsing for now." }
+        {
+          "value": "very_interested",
+          "text": "Very interested, actively looking."
+        },
+        {
+          "value": "somewhat_interested",
+          "text": "Somewhat interested, keeping options open."
+        },
+        {
+          "value": "just_browsing",
+          "text": "Just browsing for now."
+        }
       ]
     },
     {
       "id": "neighborhood_engagement",
       "questionText": "How do you usually enjoy the neighborhood?",
       "options": [
-        { "value": "resident_explorer", "text": "I live here and love exploring locally." },
-        { "value": "considering_move", "text": "I'm considering moving to this area." },
-        { "value": "just_visiting", "text": "Just visiting for the open house." }
+        {
+          "value": "resident_explorer",
+          "text": "I live here and love exploring locally."
+        },
+        {
+          "value": "considering_move",
+          "text": "I'm considering moving to this area."
+        },
+        {
+          "value": "just_visiting",
+          "text": "Just visiting for the open house."
+        }
       ]
     },
     {
       "id": "feature_attraction",
       "questionText": "What feature attracted you to this home?",
       "options": [
-        { "value": "design_layout", "text": "The design and layout." },
-        { "value": "location_neighborhood", "text": "The location and neighborhood." },
-        { "value": "home_price", "text": "The price of the home." }
+        {
+          "value": "design_layout",
+          "text": "The design and layout."
+        },
+        {
+          "value": "location_neighborhood",
+          "text": "The location and neighborhood."
+        },
+        {
+          "value": "home_price",
+          "text": "The price of the home."
+        }
       ]
     }
   ],
@@ -95,4 +161,4 @@ const config = {
     "netlifyUrl": "http://Open-House-221.netlify.app",
     "siteId": "0e9033fe-b02e-41ad-b6aa-3deeafb44068"
   }
-}
+};
